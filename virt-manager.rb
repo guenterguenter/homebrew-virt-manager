@@ -35,8 +35,10 @@ class VirtManager < Formula
   end
 
   resource "idna" do
-    url "https://pypi.io/packages/source/i/idna/idna-3.1.tar.gz"
-    sha256 "c5b02147e01ea9920e6b0a3f1f7bb833612d507592c837a6c49552768f4054e1"
+    #url "https://pypi.io/packages/source/i/idna/idna-3.1.tar.gz"
+    #sha256 "c5b02147e01ea9920e6b0a3f1f7bb833612d507592c837a6c49552768f4054e1"
+    url "https://pypi.io/packages/source/i/idna/idna-3.3.tar.gz"
+    sha256 "9d643ff0a55b762d5cdb124b8eaa99c66322e2157b69160bc32796e824360e6d"
   end
 
   resource "certifi" do
@@ -45,18 +47,24 @@ class VirtManager < Formula
   end
 
   resource "chardet" do
-    url "https://pypi.io/packages/source/c/chardet/chardet-4.0.0.tar.gz"
-    sha256 "0d6f53a15db4120f2b08c94f11e7d93d2c911ee118b6b30a04ec3ee8310179fa"
+    #url "https://pypi.io/packages/source/c/chardet/chardet-4.0.0.tar.gz"
+    #sha256 "0d6f53a15db4120f2b08c94f11e7d93d2c911ee118b6b30a04ec3ee8310179fa"
+    url "https://pypi.io/packages/source/c/certifi/certifi-2021.10.8.tar.gz"
+    sha256 "78884e7c1d4b00ce3cea67b44566851c4343c120abd683433ce934a68ea58872"
   end
 
   resource "urllib3" do
-    url "https://pypi.io/packages/source/u/urllib3/urllib3-1.26.2.tar.gz"
-    sha256 "19188f96923873c92ccb987120ec4acaa12f0461fa9ce5d3d0772bc965a39e08"
+    #url "https://pypi.io/packages/source/u/urllib3/urllib3-1.26.2.tar.gz"
+    #sha256 "19188f96923873c92ccb987120ec4acaa12f0461fa9ce5d3d0772bc965a39e08"
+    url "https://pypi.io/packages/source/u/urllib3/urllib3-1.26.7.tar.gz"
+    sha256 "4987c65554f7a2dbf30c18fd48778ef124af6fab771a377103da0585e2336ece"
   end
 
   resource "requests" do
-    url "https://pypi.io/packages/source/r/requests/requests-2.25.1.tar.gz"
-    sha256 "27973dd4a904a4f13b263a19c866c13b92a39ed1c964655f025f3f8d3d75b804"
+    #url "https://pypi.io/packages/source/r/requests/requests-2.25.1.tar.gz"
+    #sha256 "27973dd4a904a4f13b263a19c866c13b92a39ed1c964655f025f3f8d3d75b804"
+    url "https://pypi.io/packages/source/u/urllib3/urllib3-1.26.7.tar.gz"
+    sha256 "4987c65554f7a2dbf30c18fd48778ef124af6fab771a377103da0585e2336ece"
   end
 
   # virt-manager doesn't prompt for password on macOS unless --no-fork flag is provided
